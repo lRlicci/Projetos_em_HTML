@@ -1,0 +1,292 @@
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #001523;
+    color: white;
+    margin: 0;
+  }
+
+  header {
+    background-color: #0ea25e;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 0;
+  }
+
+  header img {
+    /* background-color: #a84caf; */
+    position: absolute;
+    width: 80px;
+    height: auto;
+    top: 2.5%;
+    left: 1%;
+  }
+
+  a {
+    color: #64ea68;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  ul li {
+    list-style: none;
+    margin-bottom: 2%;
+    margin-top: 1%;
+  }
+
+  main {
+    margin: 5%;
+  }
+
+  .img-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+
+  .img-inicio img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50px;
+
+    /* transform: translatex(0px); */
+    /* animation: float 6s ease-out infinite; */
+
+    animation-name: pulse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+
+  
+  nav {
+    background-color: #f2f2f2;
+    overflow: hidden;
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    background-color: #0ea25e;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  nav a.selecionada {
+    background-color: #0ea25e;
+    color: white;
+  }
+
+  .titulo-inicio  {
+    text-align: center;
+    color: white;
+    margin-bottom: -50px;
+  }
+
+  .texto-sobre-inicio {
+    text-align: center;
+    text-size-adjust: auto;
+    color: white;
+  }
+
+  .texto-sobre  {
+    margin-top: 2%;
+    margin-left: 52%;
+    color: white;
+    text-align: left;    
+  }
+
+  .conceito img {
+    float: left;
+    width: 50%;
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50px;
+  }
+
+  .conceito-t {
+    color: white;
+  }
+
+  .titulo-I {
+    margin-left: 55%;
+    color: white;
+  }
+
+  .Importancia img  {
+    float: right;
+    margin-left: 30%;
+    width: 45%;
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50px;
+  }
+
+  .texto-sobre-2  {
+    margin-top: 2%;
+    margin-right: 50%;
+    color: white;
+    text-align: left;
+    
+  }
+
+  .final  {
+    position: static;
+    background-color: #0ea25e;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    bottom: 0%;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  figure {
+    color: white;
+    border: solid, 5px, red;
+  }
+
+  .contato {
+    text-align: center;
+  }
+
+  .img-contato {
+    border-radius: 20px;
+  }
+
+  .img-empresas {
+    text-align: center;
+    margin-top: 4.5%;
+  }
+
+  .img-empresas img {
+    width: 200px;
+    height: auto;
+    text-align: center;
+    padding: 1%;
+    border-radius: 100px;
+  }
+
+  .empresas {
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  /* formulario */
+
+  .testando {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #0ea25e;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin-left: 32%;
+  }
+.testando h2  {
+  color: white;
+  font-size:  2.5rem;
+  margin: 2rem;
+}
+
+.testando form  {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.testando form label  {
+  color: #f5f5f5;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+
+.testando form  input {
+  padding: 15px;
+  outline: none;
+  border: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+.testando form  input:focus {
+  border-radius: 16px;
+}
+
+.testando form  textarea  {
+  padding: 10px;
+  outline: none;
+  border: 0;
+  font-size: 15px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+}
+
+.testando form  textarea:focus  {
+  border-radius: 16px;
+}
+
+.testando form button {
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  background: transparent;
+  border: 2px solid #f5f5f5;
+  transition: all 1s;
+  margin-bottom: 20px;
+}
+
+.testando form  button:hover  {
+  background: #f5f5f5;
+  color: #101026;
+  border-radius: 16px;
+}
+  
+
+  @keyframes float {
+  0%{
+        transform: translateY(0px);
+    }
+  50%{
+      transform: translateY(-30px);
+    }
+  100%{
+      transform: translateY(0px);
+    }
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
